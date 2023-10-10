@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 46, 48 (Events), Chapter 49, 50 (Reading and Setting 
+        field values)
+    </title>
+</head>
+<body>
+    <!-- Chapter 46, 48 (Events) -->
+<!-- Q1 -->
+
+<button onclick="alert('Hello World');">Click Me</button>
+<br>
+<br>
+<!-- another way i -->
+ <!-- <button onclick="greet('Hello world')">Click on me</button> -->
+<br>
+<br>
+<!-- Q2 -->
+
+
+<br>
+<br>
+<!-- Q3 -->
+<a href="#" id="myLink" onmouseover="this.style.color='pink'" onmouseout="this.style.color=''">My Link</a>
+
+<br>
+<br>
+ <!--  <! Q3 --another way i  -->
+    <!-- <button onblur="this.style.backgroundColor='white'" onfocus="this.style.backgroundColor='red'">click me</button> -->
+
+
+<!-- Q4 -->
+<a href="#" onclick="window.scrollTo(0, 0);">Scroll to top</a>
+<br>
+<br>
+<!-- Q4 another way i  -->
+<!-- <a href="#" id="scrollToTop">Scroll to Top</a> -->
+<!-- Q5 -->
+<a href="#" onclick="new Audio('path/to/sound.mp3').play();">Play sound</a>
+<br>
+<br>
+
+ <!-- Q5 another way i -->
+    <!-- <a href="#" id="playSoundLink">Click to Play Sound</a>
+    <audio id="myAudio" src="sound.mp3"></audio> -->
+
+
+<!-- Q6 -->
+<a href="#" onclick="window.open('https://www.example.com', '_blank');">Open new window</a>
+<br>
+<br>
+
+ <!-- Q6 another way i -->
+    <!-- <a href="#" id="openWindowLink">Open New Window</a> -->
+
+
+<!-- Q7 -->
+<button onclick="alert('Hello World !')">Click Me</button>
+
+<br>
+<br>
+
+ <!-- Q7  another way i -->
+    <!-- <button id="alertButton">Click me to alert</button> -->
+
+
+<!-- Q8 -->
+<button onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='blue'">SUBMIT</button>
+<br>
+<br>
+
+ <!-- Q8 another way i-->
+    <!-- <button id="colorButton">Hover over me</button> -->
+<!-- Q9 -->
+
+<!-- Q10 -->
+<div onmouseover="alert('Hello!')">
+    Move your mouse over this text
+  </div>
+  
+<br>
+<br>
+
+ <!-- Ques10  another way i--->
+    <!-- <div id="myElement">Hover over me</div>
+
+
+  <--- Q11 -->
+
+  <div onmouseout="hideElement(this)">
+    This text will be hidden when the mouse moves out of it
+  </div>
+  
+
+  <!-- Q12 -->
+  <a href="#" onclick="openNewWindow()">Click here to open a new window</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<!-- Chapter 49, 50 (Reading and Setting 
+field values) -->
+
+
+ <!-- Q1  -->
+ <!-- <label for="userInput">Enter something:</label>
+    <input type="text" id="userInput">
+    <button id="submitButton">Submit</button> -->
+
+
+ <!-- Q2 -->
+    <!-- <label for="myCheckbox">Check me:</label>
+    <input type="checkbox" id="myCheckbox">
+    <button id="submitButton">Submit</button> -->
+
+ <!-- Ques 3 -->
+    <!-- <label for="mySelect">Select an option:</label>
+    <select id="mySelect">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select>
+    <button id="submitButton">Submit</button> -->
+
+ <!-- Q4  -->
+ <!-- <input type="text" id="greeting" value="Hello World"> -->
+
+ <!-- Q5  -->
+<!-- 
+ <label for="maritalStatus">Are you married?</label>
+    <select id="maritalStatus">
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+    </select>
+    <br>
+    <input type="text" id="status"> -->
+
+
+
+ <!-- Q7  -->
+<!-- 
+ ==========- Login Form! =========== -->
+
+ <!-- <h1><i><u><b>User Login Form!</b></u></i></h1>
+<input id="name" type="text" placeholder="Enter Name">
+<input id="email" type="text" placeholder="Enter Email">
+    <button onclick="login()">Login</button> 
+ -->
+
+<!-- - end  -->
+
+
+     
+</body>
+<script src="app.js"></script>
+</html>
+
+
